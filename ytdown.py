@@ -14,6 +14,7 @@ for i in link:
         # object creation using YouTube
         # which was imported in the beginning 
         yt = YouTube(i) 
+        print(yt.title)
     except: 
           
         #to handle exception
