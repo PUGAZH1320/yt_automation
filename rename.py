@@ -7,7 +7,7 @@ import os
 # Function to rename multiple files
 def main():
 
-	folder = "G:\YOUTUBE_AUTOMATION\ytdownvid"
+	folder = "G:\\YOUTUBE_AUTOMATION\\videos"
 	for count, filename in enumerate(os.listdir(folder)):
 		dst = f"vid{str(count+1)}.mp4"
 		src =f"{folder}/{filename}" # foldername/filename, if .py file is outside folder
