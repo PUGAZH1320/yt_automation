@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 options = webdriver.ChromeOptions()
 # options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument("--log-level=3")
-options.add_argument("user-data-dir=C:\\Users\\PUGAZH\\AppData\\Local\\Google\\Chrome Beta\\User Data\\")
+options.add_argument("user-data-dir=C:\\Users\\EMPTY\\AppData\\Local\\Google\\Chrome Beta\\User Data\\")
 options.binary_location = "C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe"
 print("\033[1;31;40m IMPORTANT: Put one or more videos in the *videos* folder in the bot directory. Please make sure to name the video files like this --> Ex: vid1.mp4 vid2.mp4 vid3.mp4 etc..")
 time.sleep(6)
