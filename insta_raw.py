@@ -83,9 +83,9 @@ print("Renaming Process Completed!")
 options = webdriver.ChromeOptions()
 # options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument("--log-level=3")
-options.add_argument(
-    "user-data-dir=C:\\Users\\EMPTY\\AppData\\Local\\Google\\Chrome Beta\\User Data\\"
-)
+# options.add_argument(
+#     "user-data-dir=C:\\Users\\EMPTY\\AppData\\Local\\Google\\Chrome Beta\\User Data\\"
+# )
 options.binary_location = (
     "C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe"
 )

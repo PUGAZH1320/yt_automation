@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 
 
 # where to save
-SAVE_PATH = "H:\\YOUTUBE_AUTOMATION\\videos"  # to_do
+SAVE_PATH = "G:\\YOUTUBE_AUTOMATION\\videos"  # to_do
 
 # link of the video to be downloaded
 # opening the file
@@ -43,7 +43,7 @@ print('Downloading Process Completed!')
 
 def main():
 
-    folder = "H:\\YOUTUBE_AUTOMATION\\videos"
+    folder = "G:\\YOUTUBE_AUTOMATION\\videos"
     for count, filename in enumerate(os.listdir(folder)):
         dst = f"vid{str(count+1)}.mp4"
         # foldername/filename, if .py file is outside folder
@@ -113,7 +113,7 @@ print('Uploading Process Completed!')
 
 #remove process
 
-directory = "H:\\YOUTUBE_AUTOMATION\\videos"
+directory = "G:\\YOUTUBE_AUTOMATION\\videos"
 
 files_in_directory = os.listdir(directory)
 print(files_in_directory)

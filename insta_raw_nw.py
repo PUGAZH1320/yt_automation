@@ -108,7 +108,7 @@ print("   ", count, " Videos found in the videos folder, ready to upload...")
 time.sleep(6)
 
 for i in range(count):
-    service = Service("chromedriver.exe")
+    service = Service("G:\\YOUTUBE_AUTOMATION\\chromedriver.exe")
     bot = webdriver.Chrome(service=service, options=options)
 
     bot.get("https://studio.youtube.com")
